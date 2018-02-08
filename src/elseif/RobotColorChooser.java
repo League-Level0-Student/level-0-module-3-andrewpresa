@@ -27,7 +27,8 @@ public class RobotColorChooser {
 		//2. set the pen width to 10
 		
 	    //1. make the robot draw a shape (this will take more than one line of code)
-		rob.setRandomPenColor();
+		if()
+		rob.setPenWidth(10);
 		rob.penDown();
 		rob.setAngle(90);
 		rob.move(90);
@@ -37,6 +38,7 @@ public class RobotColorChooser {
 		rob.move(90);
 		rob.setAngle(360);
 		rob.move(90);
+	
 	}
 
 
