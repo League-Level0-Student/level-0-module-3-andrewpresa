@@ -20,7 +20,7 @@ public class ObediantRobot {
 
 	
 
-	String answer = JOptionPane.showInputDialog("What shpe do you want?");if(answer.equals("circle"))
+	String answer = JOptionPane.showInputDialog("What shape do you want?");if(answer.equals("circle"))
 	{
 		drawCircle();
 	}else if(answer.equals("square"))
